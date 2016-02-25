@@ -113,8 +113,12 @@ iframe {
 */
 /* ======= Header ======= */
 .header {
-  padding: 30px 0;
-  background: #f5f5f5;
+  padding: 40px 0;
+  background: url('http://webdevinterior.github.io/themes/yellow-swan/img/cover.jpg');
+  background-color: #2b2b2b;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
   border-top: 10px solid #778492;
 }
 .header .btn {
@@ -129,13 +133,13 @@ iframe {
 
 }
 .header .profile-content .name {
-  color: #49515a;
+  color: white;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
 }
 .header .profile-content .desc {
-  color: #778492;
+  color: white;
   font-family: "Lato", arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -143,7 +147,7 @@ iframe {
   margin-bottom: 15px;
 }
 .header .profile-content .social a {
-  background: #b0b7bf;
+  background: #1A1E21;
   width: 36px;
   height: 36px;
   display: inline-block;
